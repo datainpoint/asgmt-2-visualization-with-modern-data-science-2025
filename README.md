@@ -142,14 +142,14 @@ party_id	sum_votes
 17	10300
 ```
 
-## 08. Write a SQL statement in `answer_08` that is able to show the threshold of votes(3% of total votes) to receive subsidies of NT$50 for each vote from `party_legislators`.
+## 08. Write a SQL statement in `answer_08` that is able to show the threshold of votes(3% of total votes) to receive subsidies of NT$50 for each vote annually until 2028 from `party_legislators`.
 
 ```
 sum_votes	percentage_threshold	subsidy_threshold
 13776736	0.03	413302
 ```
 
-## 09. Write a SQL statement in `answer_09` that is able to show the parties that will receive subsidies of NT$50 for each vote until 2028.
+## 09. Write a SQL statement in `answer_09` that is able to show the parties that will receive subsidies of NT$50 for each vote annually until 2028.
 
 ```
 party_id	party	sum_votes
